@@ -20,7 +20,13 @@ class CanvasErrorBoundary extends Component<{ children: ReactNode }, { hasError:
 
 export default function Gallery3D() {
   return (
-    <div className="relative w-full h-screen overflow-hidden bg-background">
+    <div className="relative w-full h-screen overflow-hidden bg-background"
+      style={{
+        backgroundImage: "url('https://cdn.poehali.dev/projects/aff61de3-2355-4c86-875f-c2b92d34a3c4/bucket/e0732449-e593-4c54-a13e-b028bbe62b8e.jpg')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
       <CanvasErrorBoundary>
         <Canvas camera={{ position: [0, 0, 5], fov: 50 }} gl={{ antialias: true, alpha: false }}>
           <Suspense fallback={null}>
