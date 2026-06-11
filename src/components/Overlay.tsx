@@ -20,7 +20,7 @@ export default function Overlay() {
           transition={{ duration: 1.2, delay: 0.8, ease: [0.43, 0.13, 0.23, 0.96] }}
           className="text-sm md:text-base font-light text-white/60 tracking-widest uppercase"
         >
-          Расслабление · Восстановление · Гармония
+          Твой роскошный отдых
         </motion.p>
       </div>
 
