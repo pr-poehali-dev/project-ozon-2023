@@ -37,7 +37,7 @@ export default function LoadingScreen() {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="text-white/40 text-xs tracking-widest uppercase mb-4"
         >
-          Расслабление · Восстановление
+          Твой роскошный отдых
         </motion.p>
         <motion.div
           initial={{ scaleX: 0 }}
