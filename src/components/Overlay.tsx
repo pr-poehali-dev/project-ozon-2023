@@ -31,8 +31,13 @@ export default function Overlay() {
         >
           <div className="flex gap-8 text-center">
             <div className="flex flex-col gap-1">
-              <span className="text-white/90 text-xl font-serif">Классический</span>
-              <span className="text-white/50 text-xs tracking-wider uppercase">Расслабляющий</span>
+              <motion.a
+                href="#"
+                whileHover={{ scale: 1.06, opacity: 1 }}
+                className="text-white/90 text-xl font-serif cursor-pointer hover:text-white transition-colors duration-300"
+              >
+                Фотогалерея
+              </motion.a>
             </div>
             <div className="w-px bg-white/20" />
             <div className="flex flex-col gap-1">
