@@ -27,6 +27,7 @@ export default function Gallery3D() {
         backgroundPosition: "center",
       }}
     >
+      <div className="absolute inset-0 bg-black/50 z-0" />
       <CanvasErrorBoundary>
         <Canvas camera={{ position: [0, 0, 5], fov: 50 }} gl={{ antialias: true, alpha: false }}>
           <Suspense fallback={null}>
