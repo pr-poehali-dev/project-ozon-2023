@@ -1,6 +1,8 @@
 import { motion } from "framer-motion"
+import { useNavigate } from "react-router-dom"
 
 export default function Overlay() {
+  const navigate = useNavigate()
   return (
     <div className="pointer-events-none absolute inset-0 z-10">
       <div className="absolute top-8 left-0 right-0 flex flex-col items-center gap-2">
@@ -31,13 +33,14 @@ export default function Overlay() {
         >
           <div className="flex gap-8 text-center">
             <div className="flex flex-col gap-1">
-              <motion.a
-                href="#"
-                whileHover={{ scale: 1.06, opacity: 1 }}
+              <motion.button
+                onClick={() => navigate("/gallery")}
+                whileHover={{ scale: 1.06 }}
+                whileTap={{ scale: 0.97 }}
                 className="text-white/90 text-xl font-serif cursor-pointer hover:text-white transition-colors duration-300"
               >
                 Фотогалерея
-              </motion.a>
+              </motion.button>
             </div>
             <div className="w-px bg-white/20" />
             <div className="flex flex-col gap-1">
