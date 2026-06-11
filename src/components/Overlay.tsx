@@ -43,8 +43,13 @@ export default function Overlay() {
               </motion.button>
             </div>
             <div className="w-px bg-white/20" />
-            <div className="flex flex-col gap-1">
-              <span className="text-white/90 text-xl font-serif">Обо мне</span>
+            <div className="flex flex-col gap-1 cursor-pointer" onClick={() => navigate("/about")}>
+              <motion.span
+                whileHover={{ scale: 1.06 }}
+                className="text-white/90 text-xl font-serif hover:text-white transition-colors duration-300"
+              >
+                Обо мне
+              </motion.span>
               <span className="text-white/50 text-xs tracking-wider uppercase">Мастер</span>
             </div>
             <div className="w-px bg-white/20" />
