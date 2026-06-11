@@ -44,6 +44,11 @@ export default function Overlay() {
             </div>
             <div className="w-px bg-white/20" />
             <div className="flex flex-col gap-1">
+              <span className="text-white/90 text-xl font-serif">Тайский</span>
+              <span className="text-white/50 text-xs tracking-wider uppercase">Глубокий</span>
+            </div>
+            <div className="w-px bg-white/20" />
+            <div className="flex flex-col gap-1">
               <motion.button
                 onClick={() => navigate("/contacts")}
                 whileHover={{ scale: 1.06 }}
@@ -52,11 +57,6 @@ export default function Overlay() {
               >
                 Контакты
               </motion.button>
-            </div>
-            <div className="w-px bg-white/20" />
-            <div className="flex flex-col gap-1">
-              <span className="text-white/90 text-xl font-serif">Тайский</span>
-              <span className="text-white/50 text-xs tracking-wider uppercase">Глубокий</span>
             </div>
           </div>
 
