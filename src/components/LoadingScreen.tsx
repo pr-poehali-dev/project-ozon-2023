@@ -27,10 +27,18 @@ export default function LoadingScreen() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="font-serif text-4xl mb-4"
+          className="font-serif text-4xl mb-2 tracking-widest text-white"
         >
-          Загрузка
+          Искусство массажа
         </motion.div>
+        <motion.p
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.8, delay: 0.3 }}
+          className="text-white/40 text-xs tracking-widest uppercase mb-4"
+        >
+          Расслабление · Восстановление
+        </motion.p>
         <motion.div
           initial={{ scaleX: 0 }}
           animate={{ scaleX: 1 }}
