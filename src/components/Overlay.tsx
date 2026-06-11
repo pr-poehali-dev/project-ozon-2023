@@ -74,14 +74,7 @@ export default function Overlay() {
           </motion.button>
         </motion.div>
 
-        <motion.p
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1.5, delay: 1.8 }}
-          className="text-white/30 text-xs tracking-widest"
-        >
-          Потяните, чтобы исследовать галерею
-        </motion.p>
+
       </div>
     </div>
   )
