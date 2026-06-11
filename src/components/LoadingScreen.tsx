@@ -29,7 +29,7 @@ export default function LoadingScreen() {
           transition={{ duration: 0.8 }}
           className="font-serif text-4xl mb-2 tracking-widest text-white"
         >
-          Искусство массажа
+          Сладкие Грёзы
         </motion.div>
         <motion.p
           initial={{ opacity: 0 }}
