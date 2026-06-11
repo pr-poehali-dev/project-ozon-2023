@@ -87,7 +87,7 @@ export default function Scene() {
   const dragStart = useRef({ x: 0, y: 0 })
   const dragRotation = useRef(0)
 
-  const textures = useTexture(images)
+  const textures = useTexture(images, undefined, () => { })
 
   // Mouse parallax effect
   useEffect(() => {
