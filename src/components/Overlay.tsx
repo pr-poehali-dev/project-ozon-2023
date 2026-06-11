@@ -44,8 +44,8 @@ export default function Overlay() {
             </div>
             <div className="w-px bg-white/20" />
             <div className="flex flex-col gap-1">
-              <span className="text-white/90 text-xl font-serif">Тайский</span>
-              <span className="text-white/50 text-xs tracking-wider uppercase">Глубокий</span>
+              <span className="text-white/90 text-xl font-serif">Обо мне</span>
+              <span className="text-white/50 text-xs tracking-wider uppercase">Мастер</span>
             </div>
             <div className="w-px bg-white/20" />
             <div className="flex flex-col gap-1">
