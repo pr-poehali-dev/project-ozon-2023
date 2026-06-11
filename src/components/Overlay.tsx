@@ -65,13 +65,14 @@ export default function Overlay() {
             </div>
           </div>
 
-          <motion.button
+          <motion.a
+            href="tel:+79990000000"
             whileHover={{ scale: 1.04 }}
             whileTap={{ scale: 0.97 }}
             className="mt-2 px-10 py-3 border border-white/30 text-white/90 text-sm tracking-widest uppercase hover:bg-white/10 transition-colors duration-300"
           >
-            Записаться на сеанс
-          </motion.button>
+            +7 (999) 000-00-00
+          </motion.a>
         </motion.div>
 
 
