@@ -23,8 +23,9 @@ export default function Gallery3D() {
     <div className="relative w-full h-screen overflow-hidden bg-background"
       style={{
         backgroundImage: "url('https://cdn.poehali.dev/projects/aff61de3-2355-4c86-875f-c2b92d34a3c4/bucket/e0732449-e593-4c54-a13e-b028bbe62b8e.jpg')",
-        backgroundSize: "cover",
+        backgroundSize: "65%",
         backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
       }}
     >
       <div className="absolute inset-0 bg-black/50 z-0" />
